@@ -6,7 +6,7 @@ const { blacklist } = require("../blacklist");
 const UserRoute = express.Router();
 //hii
 //jlo
-let hlo = hii;
+let hlo = "hii";
 UserRoute.post("/register", async (req, res) => {
   const { name, email, password, age, city } = req.body;
   try {
