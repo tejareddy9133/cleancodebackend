@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { UserModel } = require("../models/authmodel/user.model");
 const { blacklist } = require("../blacklist");
 const UserRoute = express.Router();
-
+//hii
 UserRoute.post("/register", async (req, res) => {
   const { name, email, password, age, city } = req.body;
   try {
